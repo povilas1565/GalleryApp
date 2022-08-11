@@ -1,43 +1,25 @@
-# InstaGallery
-[![Platform](https://img.shields.io/bitrise/6c8f879c831767a2?token=OXWkAn3z22ZrCNrMyZrmHw&style=flat-square)](https://cocoapods.org/pods/InstaGallery) [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square) [![Swift](https://img.shields.io/badge/swift-5.0-red?style=flat-square)](https://cocoapods.org/pods/InstaGallery) [![Platform](https://img.shields.io/badge/platform-ios-blue?style=flat-square)](https://cocoapods.org/pods/InstaGallery) 
+# Gallery
 
-InstaGallery is an easy way to access your Instagram account and get your gallery and get his media in a few steps.
+# Информация по проекту
+# Дизайн
 
-## How to use
-1. You need a Facebook Developer account, go to [Facebook Developer](https://developers.facebook.com/) and create a new account if you haven't yet
-2. Create a new Facebook application following the steps that appear on the official web site [Create Facebook Application for Instagram](https://developers.facebook.com/docs/instagram-basic-display-api/getting-started)
-3. Open your `Info.plist`
-4. Set a new key with name `InstagramClientId` and set your Instagram App Id in this key
-5. Set a new key with name `InstagramRedirectURI` and set with your Instagram App Redirect URI
-6. Set one more key with name `InstagramClientSecret` with the Instagram App Secret.
-7. Init `GalleryController` with method `InstaGallery.gallery`. If you need retrieve the media selected, do you need set `GalleryDelegate` delegate with the optinal parameters `delegate`. For example
-```swift
-let galleryController = InstaGallery.gallery(withDelegate: self)
-let navigationController = UINavigationController(rootViewController: galleryController)
-present(navigationController, animated: true, completion: nil)
-```
-8. Enjoy! 🎉
+# Сервер
+Base Url: https://pictures.chronicker.fun/api
+Сваггер спецификация: https://pictures.chronicker.fun/
 
-## CocoaPod
-InstaGallery is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+Аккаунты: Доступны все картинки: +71234567890 / qwerty
+Часть картинок: +79876543219 / qwerty
+Без картинок: +78005003030 / qwerty
 
-```ruby
-pod 'InstaGallery'
-```
-Then, run ```pod install```
+# Общая логика по выполнению запросов:
+Все запросы, кроме auth/login требуют токен авторизации. Передавать в хедерах "Authorization": "Token $token".
+Где $token - это токен, который вы получили при авторизации, в запросе auth/login.
 
-## Swift Package Manager
+Вечный токен, чтобы обойти авторизацию: 595d9f58b8ac34689b1326e2cf4ef803882995c267a00ce34c6220f4a6d8ed6a
 
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. 
+или
 
-Once you have your Swift package set up, adding Alamofire as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/MRodSebastian/InstaGallery.git", .upToNextMajor(from: "0.4.0"))
-]
-```
+7af13ab633789e2601529cb14782c7e114af837365ad922b2bb2b09f4b8d72b9
 
 ## Contribute
 
@@ -46,6 +28,3 @@ dependencies: [
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create pull request
-
-## Who made this?
-- Manu Rodriguez ([@MRBenzex](https://twitter.com/mrbenzex))
