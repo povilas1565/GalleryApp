@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  InstaGalleryDemo
+//  GalleryDemo
 //
-//  Created by Manuel Rodriguez on 28/3/22.
+//  Created by Павел Рыжков on 06/08/22.
 //
 
 import UIKit
@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let galleryController = InstaGallery.gallery(withDelegate: self)
+        let galleryController = Gallery.gallery(withDelegate: self)
         let navigationController = UINavigationController(rootViewController: galleryController)
         present(navigationController, animated: true, completion: nil)
     }

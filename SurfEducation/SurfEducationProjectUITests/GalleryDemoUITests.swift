@@ -1,8 +1,8 @@
 //
-//  InstaGalleryDemoUITests.swift
-//  InstaGalleryDemoUITests
+//  GalleryDemoUITests.swift
+//  GalleryDemoUITests
 //
-//  Created by Manuel Rodriguez on 28/3/22.
+//  Created by Павел Рыжков on 17/8/22.
 //
 
 import XCTest

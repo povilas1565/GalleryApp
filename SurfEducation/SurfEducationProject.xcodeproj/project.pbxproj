@@ -13,10 +13,10 @@
 		5494E53927F18DE2004F4AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5494E53727F18DE2004F4AA0 /* Main.storyboard */; };
 		5494E53B27F18DE3004F4AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5494E53A27F18DE3004F4AA0 /* Assets.xcassets */; };
 		5494E53E27F18DE3004F4AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5494E53C27F18DE3004F4AA0 /* LaunchScreen.storyboard */; };
-		5494E54927F18DE3004F4AA0 /* InstaGalleryDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494E54827F18DE3004F4AA0 /* InstaGalleryDemoTests.swift */; };
-		5494E55327F18DE3004F4AA0 /* InstaGalleryDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494E55227F18DE3004F4AA0 /* InstaGalleryDemoUITests.swift */; };
-		5494E55527F18DE3004F4AA0 /* InstaGalleryDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494E55427F18DE3004F4AA0 /* InstaGalleryDemoUITestsLaunchTests.swift */; };
-		5494E56527F18F3E004F4AA0 /* InstaGallery in Frameworks */ = {isa = PBXBuildFile; productRef = 5494E56427F18F3E004F4AA0 /* InstaGallery */; };
+		5494E54927F18DE3004F4AA0 /* GalleryDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494E54827F18DE3004F4AA0 /* GalleryDemoTests.swift */; };
+		5494E55327F18DE3004F4AA0 /* GalleryDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494E55227F18DE3004F4AA0 /* GalleryDemoUITests.swift */; };
+		5494E55527F18DE3004F4AA0 /* GalleryDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5494E55427F18DE3004F4AA0 /* GalleryDemoUITestsLaunchTests.swift */; };
+		5494E56527F18F3E004F4AA0 /* Gallery in Frameworks */ = {isa = PBXBuildFile; productRef = 5494E56427F18F3E004F4AA0 /* Gallery */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,19 +25,19 @@
 			containerPortal = 5494E52627F18DE2004F4AA0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5494E52D27F18DE2004F4AA0;
-			remoteInfo = InstaGalleryDemo;
+			remoteInfo = GalleryDemo;
 		};
 		5494E54F27F18DE3004F4AA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5494E52627F18DE2004F4AA0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5494E52D27F18DE2004F4AA0;
-			remoteInfo = InstaGalleryDemo;
+			remoteInfo = GalleryDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5494E52E27F18DE2004F4AA0 /* InstaGalleryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaGalleryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5494E52E27F18DE2004F4AA0 /* GalleryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalleryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5494E53127F18DE2004F4AA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5494E53327F18DE2004F4AA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5494E53527F18DE2004F4AA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,12 +45,12 @@
 		5494E53A27F18DE3004F4AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5494E53D27F18DE3004F4AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5494E53F27F18DE3004F4AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5494E54427F18DE3004F4AA0 /* InstaGalleryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaGalleryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5494E54827F18DE3004F4AA0 /* InstaGalleryDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaGalleryDemoTests.swift; sourceTree = "<group>"; };
-		5494E54E27F18DE3004F4AA0 /* InstaGalleryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaGalleryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5494E55227F18DE3004F4AA0 /* InstaGalleryDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaGalleryDemoUITests.swift; sourceTree = "<group>"; };
-		5494E55427F18DE3004F4AA0 /* InstaGalleryDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaGalleryDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5494E56227F18E29004F4AA0 /* InstaGallery */ = {isa = PBXFileReference; lastKnownFileType = folder; name = InstaGallery; path = ..; sourceTree = "<group>"; };
+		5494E54427F18DE3004F4AA0 /* GalleryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalleryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5494E54827F18DE3004F4AA0 /* GalleryDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaGalleryDemoTests.swift; sourceTree = "<group>"; };
+		5494E54E27F18DE3004F4AA0 /* GalleryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalleryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5494E55227F18DE3004F4AA0 /* GalleryDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDemoUITests.swift; sourceTree = "<group>"; };
+		5494E55427F18DE3004F4AA0 /* GalleryDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5494E56227F18E29004F4AA0 /* Gallery */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Gallery; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5494E56527F18F3E004F4AA0 /* InstaGallery in Frameworks */,
+				5494E56527F18F3E004F4AA0 /* Gallery in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				5494E56127F18E29004F4AA0 /* Packages */,
-				5494E53027F18DE2004F4AA0 /* InstaGalleryDemo */,
-				5494E54727F18DE3004F4AA0 /* InstaGalleryDemoTests */,
-				5494E55127F18DE3004F4AA0 /* InstaGalleryDemoUITests */,
+				5494E53027F18DE2004F4AA0 /* GalleryDemo */,
+				5494E54727F18DE3004F4AA0 /* GalleryDemoTests */,
+				5494E55127F18DE3004F4AA0 /* GalleryDemoUITests */,
 				5494E52F27F18DE2004F4AA0 /* Products */,
 				5494E56327F18F3E004F4AA0 /* Frameworks */,
 			);
@@ -94,14 +94,14 @@
 		5494E52F27F18DE2004F4AA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5494E52E27F18DE2004F4AA0 /* InstaGalleryDemo.app */,
-				5494E54427F18DE3004F4AA0 /* InstaGalleryDemoTests.xctest */,
-				5494E54E27F18DE3004F4AA0 /* InstaGalleryDemoUITests.xctest */,
+				5494E52E27F18DE2004F4AA0 /* GalleryDemo.app */,
+				5494E54427F18DE3004F4AA0 /* GalleryDemoTests.xctest */,
+				5494E54E27F18DE3004F4AA0 /* GalleryDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5494E53027F18DE2004F4AA0 /* InstaGalleryDemo */ = {
+		5494E53027F18DE2004F4AA0 /* GalleryDemo */ = {
 			isa = PBXGroup;
 			children = (
 				5494E53127F18DE2004F4AA0 /* AppDelegate.swift */,
@@ -115,27 +115,27 @@
 			path = InstaGalleryDemo;
 			sourceTree = "<group>";
 		};
-		5494E54727F18DE3004F4AA0 /* InstaGalleryDemoTests */ = {
+		5494E54727F18DE3004F4AA0 /* GalleryDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				5494E54827F18DE3004F4AA0 /* InstaGalleryDemoTests.swift */,
+				5494E54827F18DE3004F4AA0 /* GalleryDemoTests.swift */,
 			);
-			path = InstaGalleryDemoTests;
+			path = GalleryDemoTests;
 			sourceTree = "<group>";
 		};
-		5494E55127F18DE3004F4AA0 /* InstaGalleryDemoUITests */ = {
+		5494E55127F18DE3004F4AA0 /* GalleryDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5494E55227F18DE3004F4AA0 /* InstaGalleryDemoUITests.swift */,
-				5494E55427F18DE3004F4AA0 /* InstaGalleryDemoUITestsLaunchTests.swift */,
+				5494E55227F18DE3004F4AA0 /* GalleryDemoUITests.swift */,
+				5494E55427F18DE3004F4AA0 /* GalleryDemoUITestsLaunchTests.swift */,
 			);
-			path = InstaGalleryDemoUITests;
+			path = GalleryDemoUITests;
 			sourceTree = "<group>";
 		};
 		5494E56127F18E29004F4AA0 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				5494E56227F18E29004F4AA0 /* InstaGallery */,
+				5494E56227F18E29004F4AA0 /* Gallery */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5494E52D27F18DE2004F4AA0 /* InstaGalleryDemo */ = {
+		5494E52D27F18DE2004F4AA0 /* GalleryDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5494E55827F18DE3004F4AA0 /* Build configuration list for PBXNativeTarget "InstaGalleryDemo" */;
 			buildPhases = (
@@ -162,15 +162,15 @@
 			);
 			dependencies = (
 			);
-			name = InstaGalleryDemo;
+			name = GalleryDemo;
 			packageProductDependencies = (
-				5494E56427F18F3E004F4AA0 /* InstaGallery */,
+				5494E56427F18F3E004F4AA0 /* Gallery */,
 			);
-			productName = InstaGalleryDemo;
-			productReference = 5494E52E27F18DE2004F4AA0 /* InstaGalleryDemo.app */;
+			productName = GalleryDemo;
+			productReference = 5494E52E27F18DE2004F4AA0 /* GalleryDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5494E54327F18DE3004F4AA0 /* InstaGalleryDemoTests */ = {
+		5494E54327F18DE3004F4AA0 /* GalleryDemoTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5494E55B27F18DE3004F4AA0 /* Build configuration list for PBXNativeTarget "InstaGalleryDemoTests" */;
 			buildPhases = (
@@ -183,12 +183,12 @@
 			dependencies = (
 				5494E54627F18DE3004F4AA0 /* PBXTargetDependency */,
 			);
-			name = InstaGalleryDemoTests;
-			productName = InstaGalleryDemoTests;
-			productReference = 5494E54427F18DE3004F4AA0 /* InstaGalleryDemoTests.xctest */;
+			name = GalleryDemoTests;
+			productName = GalleryDemoTests;
+			productReference = 5494E54427F18DE3004F4AA0 /* GalleryDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5494E54D27F18DE3004F4AA0 /* InstaGalleryDemoUITests */ = {
+		5494E54D27F18DE3004F4AA0 /* GalleryDemoUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5494E55E27F18DE3004F4AA0 /* Build configuration list for PBXNativeTarget "InstaGalleryDemoUITests" */;
 			buildPhases = (
@@ -201,9 +201,9 @@
 			dependencies = (
 				5494E55027F18DE3004F4AA0 /* PBXTargetDependency */,
 			);
-			name = InstaGalleryDemoUITests;
-			productName = InstaGalleryDemoUITests;
-			productReference = 5494E54E27F18DE3004F4AA0 /* InstaGalleryDemoUITests.xctest */;
+			name = GalleryDemoUITests;
+			productName = GalleryDemoUITests;
+			productReference = 5494E54E27F18DE3004F4AA0 /* GalleryDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5494E52927F18DE2004F4AA0 /* Build configuration list for PBXProject "InstaGalleryDemo" */;
+			buildConfigurationList = 5494E52927F18DE2004F4AA0 /* Build configuration list for PBXProject "GalleryDemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -242,9 +242,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5494E52D27F18DE2004F4AA0 /* InstaGalleryDemo */,
-				5494E54327F18DE3004F4AA0 /* InstaGalleryDemoTests */,
-				5494E54D27F18DE3004F4AA0 /* InstaGalleryDemoUITests */,
+				5494E52D27F18DE2004F4AA0 /* GalleryDemo */,
+				5494E54327F18DE3004F4AA0 /* GalleryDemoTests */,
+				5494E54D27F18DE3004F4AA0 /* GalleryDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -291,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5494E54927F18DE3004F4AA0 /* InstaGalleryDemoTests.swift in Sources */,
+				5494E54927F18DE3004F4AA0 /* GalleryDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +299,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5494E55527F18DE3004F4AA0 /* InstaGalleryDemoUITestsLaunchTests.swift in Sources */,
-				5494E55327F18DE3004F4AA0 /* InstaGalleryDemoUITests.swift in Sources */,
+				5494E55527F18DE3004F4AA0 /* GalleryDemoUITestsLaunchTests.swift in Sources */,
+				5494E55327F18DE3004F4AA0 /* GalleryDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,12 +309,12 @@
 /* Begin PBXTargetDependency section */
 		5494E54627F18DE3004F4AA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5494E52D27F18DE2004F4AA0 /* InstaGalleryDemo */;
+			target = 5494E52D27F18DE2004F4AA0 /* GalleryDemo */;
 			targetProxy = 5494E54527F18DE3004F4AA0 /* PBXContainerItemProxy */;
 		};
 		5494E55027F18DE3004F4AA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5494E52D27F18DE2004F4AA0 /* InstaGalleryDemo */;
+			target = 5494E52D27F18DE2004F4AA0 /* GalleryDemo */;
 			targetProxy = 5494E54F27F18DE3004F4AA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manu.InstaGalleryDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manu.GalleryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -501,7 +501,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manu.InstaGalleryDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manu.GalleryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -524,12 +524,12 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manu.InstaGalleryDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manu.GalleryDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaGalleryDemo.app/InstaGalleryDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GalleryDemo.app/GalleryDemo";
 			};
 			name = Debug;
 		};
@@ -548,12 +548,12 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manu.InstaGalleryDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manu.GalleryDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaGalleryDemo.app/InstaGalleryDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GalleryDemo.app/GalleryDemo";
 			};
 			name = Release;
 		};
@@ -570,12 +570,12 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manu.InstaGalleryDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manu.GalleryDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = InstaGalleryDemo;
+				TEST_TARGET_NAME = GalleryDemo;
 			};
 			name = Debug;
 		};
@@ -592,19 +592,19 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manu.InstaGalleryDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manu.GalleryDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = InstaGalleryDemo;
+				TEST_TARGET_NAME = GalleryDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5494E52927F18DE2004F4AA0 /* Build configuration list for PBXProject "InstaGalleryDemo" */ = {
+		5494E52927F18DE2004F4AA0 /* Build configuration list for PBXProject "GalleryDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5494E55627F18DE3004F4AA0 /* Debug */,
@@ -613,7 +613,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5494E55827F18DE3004F4AA0 /* Build configuration list for PBXNativeTarget "InstaGalleryDemo" */ = {
+		5494E55827F18DE3004F4AA0 /* Build configuration list for PBXNativeTarget "GalleryDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5494E55927F18DE3004F4AA0 /* Debug */,
@@ -622,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5494E55B27F18DE3004F4AA0 /* Build configuration list for PBXNativeTarget "InstaGalleryDemoTests" */ = {
+		5494E55B27F18DE3004F4AA0 /* Build configuration list for PBXNativeTarget "GalleryDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5494E55C27F18DE3004F4AA0 /* Debug */,
@@ -631,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5494E55E27F18DE3004F4AA0 /* Build configuration list for PBXNativeTarget "InstaGalleryDemoUITests" */ = {
+		5494E55E27F18DE3004F4AA0 /* Build configuration list for PBXNativeTarget "GalleryDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5494E55F27F18DE3004F4AA0 /* Debug */,
@@ -643,9 +643,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5494E56427F18F3E004F4AA0 /* InstaGallery */ = {
+		5494E56427F18F3E004F4AA0 /* Gallery */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = InstaGallery;
+			productName = Gallery;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

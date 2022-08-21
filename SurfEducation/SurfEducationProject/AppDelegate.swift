@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  InstaGalleryDemo
+//  GalleryDemo
 //
-//  Created by Manuel Rodriguez on 28/3/22.
+//  Created by Павел Рыжков on 04/8/22.
 //
 
 import UIKit

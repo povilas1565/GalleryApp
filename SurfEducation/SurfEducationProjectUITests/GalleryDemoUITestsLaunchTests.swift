@@ -1,13 +1,13 @@
 //
-//  InstaGalleryDemoUITestsLaunchTests.swift
-//  InstaGalleryDemoUITests
+//  GalleryDemoUITestsLaunchTests.swift
+//  GalleryDemoUITests
 //
-//  Created by Manuel Rodriguez on 28/3/22.
+//  Created by Павел Рыжков on 18/8/22.
 //
 
 import XCTest
 
-class InstaGalleryDemoUITestsLaunchTests: XCTestCase {
+class GalleryDemoUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
